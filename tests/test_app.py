@@ -21,4 +21,4 @@ def test_version():
     response = client.get("/version")
 
     assert response.status_code == 200
-    assert b"v9.9.9" in response.data
+    assert b"v3.0.0" in response.data
